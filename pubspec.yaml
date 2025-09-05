@@ -1,0 +1,21 @@
+name: wheel_wizard
+description: A simple spin‑the‑wheel app that lets users add their own labels and randomly selects one when you tap the spin button. Includes AdMob banner support and a hook for a premium upgrade.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Google Mobile Ads SDK for displaying banner ads. Replace the test unit ID with your own in release builds.
+  google_mobile_ads: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
