@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wheel Wizard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Wheel Wizard</h1>
+    <button id="darkToggle" title="Toggle dark mode">🌙</button>
+  </header>
+  <main>
+    <section id="controls">
+      <div class="add-label">
+        <input id="labelInput" type="text" placeholder="Add label...">
+        <button id="addLabel">Add</button>
+      </div>
+      <ul id="labelList"></ul>
+    </section>
+    <section id="wheelSection">
+      <canvas id="wheelCanvas" width="400" height="400"></canvas>
+      <button id="spinBtn">Spin</button>
+    </section>
+    <section id="result" hidden>
+      <p>Result: <span id="resultText"></span></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
